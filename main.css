@@ -52,6 +52,7 @@ body {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
   }
 
   .about__image {
@@ -346,6 +347,16 @@ color: #ad1714;
 .promo__button {
   display: flex;
   justify-content: center;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0; 
+  height: 100%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 @keyframes rotation {
